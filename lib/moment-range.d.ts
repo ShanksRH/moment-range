@@ -87,3 +87,5 @@ declare module 'moment' {
 }
 
 export function extendMoment(momentClass: typeof moment): MomentRange & typeof moment;
+
+export default { DateRange, extendMoment };
